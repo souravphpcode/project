@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: auto 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #cc9a9a;
+    padding: 30px;
+    object-fit: cover;
+    display: ruby-base;
+}
+
+.container {
+    position: relative;
+    max-width: 1000px;
+    height: 300pt;
+    width: 200%;
+    background: #cdcbcb;
+    padding: 40px 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    perspective: 270000px;
+}
+
+.re input[type="text"] {
+    width: 50%;
+    height: 100px;
+    padding: 10px;
+    background: transparent;
+    border: 1px soild #adadad;
+    /* border-radius: 0; */
+    margin-bottom: 5px;
+    border-radius: 25px;
+    font-size: 12px;
+}
+
+.re1 input[type="text"] {
+    width: 50%;
+    height: 50px;
+    padding: 10px;
+    background: transparent;
+    border: 1px soild #adadad;
+    /* border-radius: 0; */
+    margin-bottom: 5px;
+    border-radius: 25px;
+    font-size: 12px;
+}
+
+.re input[type="file"] {
+    width: 50%;
+    height: 50px;
+    padding: 10px;
+    background: transparent;
+    border: 1px soild #adadad;
+    border-radius: 0;
+    margin-bottom: 5px;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+.button input {
+    color: #fff;
+    background: #7d2ae8;
+    border-radius: 6px;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    width: 25%;
+    height: 50px;
+}
+
+#navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
